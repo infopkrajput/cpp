@@ -1,8 +1,3 @@
-/*
-Declare	a	structure	called	matrix	containing	a	3	x	3	array	of
-integers.	Overload	the	+	operator	to	carry	out	addition	of	two
-matrices.
-*/
 #include <iostream>
 using namespace std;
 struct matrix
