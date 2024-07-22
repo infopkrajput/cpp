@@ -1,3 +1,6 @@
+/*
+About class and objects
+*/
 #include <iostream>
 using namespace std;
 class Rectangle
