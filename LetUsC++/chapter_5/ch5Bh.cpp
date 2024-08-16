@@ -30,16 +30,31 @@ public:
 
     void displayTime()
     {
-        if (minute > 9 && hour > 9)
+        if (minute > 9)
             cout << hour << ":" << minute << " " << ampm << endl;
-        else if (minute < 10 && hour < 10)
-            cout << "0" << hour << ":0" << minute << " " << ampm << endl;
-        else if (hour < 10 && minute > 9)
-            cout << "0" << hour << ":" << minute << " " << ampm << endl;
-        else if (hour > 9 && minute < 10)
+        else
             cout << hour << ":0" << minute << " " << ampm << endl;
     }
+    time12(time24 t)
+    {
+        int h = t.getHour();
+        int m = t.getMinute();
+        string ampm;
+        if (h >= 12)
+        {
+            h = h - 12;
+            ampm = "PM";
+        }
+        else
+        {
+            ampm = "AM";
+        }
+        this->hour = h;
+        this->minute = m;
+        this->ampm = ampm;
+    }
 };
+
 class time24
 {
 private:
@@ -58,6 +73,14 @@ public:
         {
             cout << " You Give wrong time in 24 format" << endl;
         }
+    }
+    int getHour()
+    {
+        return hour;
+    }
+    int getMinute()
+    {
+        return minute;
     }
     void displayTime()
     {
@@ -86,13 +109,11 @@ public:
 };
 int main()
 {
-    // time12 a1(4, 12, "PM"), a2;
-    // time24 b1(13, 16), b2;
-    // b2 = a1;
-    // b2.displayTime();
-    time12 a(11, 11, "PM");
-    time24 b;
-    b = a;
-    b.displayTime();
+    time12 a1(4, 12, "PM"), a2;
+    time24 b1(13, 16), b2;
+    b2 = a1;
+    b2.displayTime();
+    a2 = b1;
+    a2.displayTime();
     return 0;
 }
