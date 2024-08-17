@@ -118,11 +118,11 @@ time12::time12(time24 t)
     string str = "AM";
     if (h == 0)
     {
-        h = 12; 
+        h = 12;
     }
     else if (h == 12)
     {
-        str = "PM"; 
+        str = "PM";
     }
     else if (h > 12)
     {
