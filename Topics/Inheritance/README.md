@@ -6,9 +6,9 @@ The derived class inherits some or all of the traits from the base class. A clas
 ## types of Inheritance
 
 1. Single inheritance
-2. Multiple inheritance
-3. Hierarchical inheritance
-4. Multi level inheritance
+2. Multi level inheritance
+3. Multiple inheritance 
+4. Hierarchical inheritance
 5. Hybrid inheritance
 
 ### Defining Derived Class
@@ -245,7 +245,7 @@ int main()
 }
 ```
 
-## 2. Multiple inheritance
+## 2. Multi level inheritance
 
 It is not uncommon that a class is derived from another drive class. The `Class A` serves as a base class for the derived `class B`, which in turn serves as a base class for the derived `class c`. The `Class B` is known as intermediate base class, since it provide a link for the inheritance between `A` and `C`. The chain ABC is known as inheritance path.<br>
 This process can be extended to any number of levels of inheritance.<br>
@@ -325,3 +325,6 @@ int main()
 }
 
 ```
+
+## Multiple inheritance 
+
