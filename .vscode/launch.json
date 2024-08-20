@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/PC/OneDrive/PK/Study/c++",
-      "program": "c:/Users/PC/OneDrive/PK/Study/c++/build/Debug/outDebug",
+      "cwd": "c:/Users/PC/OneDrive/PK/Study/c++/Topics/Inheritance",
+      "program": "c:/Users/PC/OneDrive/PK/Study/c++/Topics/Inheritance/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
