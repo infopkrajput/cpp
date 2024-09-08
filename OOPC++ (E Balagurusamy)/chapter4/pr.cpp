@@ -19,6 +19,8 @@ void Shop::input_Shop()
 {
     cout << "Enter the Item Name = ";
     cin >> name;
+    cout << "Enter the Price = ";
+    cin >> price;
     id++;
 }
 
@@ -26,6 +28,7 @@ void Shop::print_Shop()
 {
     cout << "Item Id = " << id << endl;
     cout << "Item Name = " << name << endl;
+    cout << "Price = " << price << endl;
 }
 
 class Electronic_applications : public Shop
@@ -53,6 +56,7 @@ void Electronic_applications::sale_Electronic_applications()
 void Electronic_applications::input_Electronic_applications()
 {
     input_Shop();
+
     cout << "Enter the serial No. = ";
     cin >> serial_no;
 }
@@ -98,6 +102,7 @@ public:
 };
 
 void Clothes::input_Clothes()
+
 {
     cout << "Enter the clothes size (in meters): ";
     cin >> meters;
@@ -171,9 +176,36 @@ int main()
         {
         case 1:
         {
+            int x;
+            bool continue_inner_loop = true;
             Electronic_applications e;
-            e.input_Electronic_applications();
-            e.print_Electronic_applications();
+            while (continue_inner_loop)
+            {
+                cout << "Welcome to Electronic Store" << endl;
+                cout << "1. Enter product Details : " << endl;
+                cout << "2. Print Product details :" << endl;
+                cout << "3. Close Electronic Store :" << endl;
+                cout << "Enter your choice here : ";
+                cin >> x;
+                switch (x)
+                {
+                case 1:
+                    e.input_Electronic_applications();
+                    break;
+                case 2:
+                    e.print_Electronic_applications();
+                    break;
+                case 3:
+                {
+                    continue_inner_loop = false;
+                    break;
+                }
+                default:
+                    cout << "Invalid choice" << endl;
+                    break;
+                }
+            }
+
             break;
         }
         case 2:
