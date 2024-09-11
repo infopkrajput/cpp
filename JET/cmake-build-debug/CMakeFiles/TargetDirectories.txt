@@ -1,0 +1,3 @@
+C:/Users/PC/OneDrive/PK/Study/c++/JET/cmake-build-debug/CMakeFiles/JET.dir
+C:/Users/PC/OneDrive/PK/Study/c++/JET/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PC/OneDrive/PK/Study/c++/JET/cmake-build-debug/CMakeFiles/rebuild_cache.dir
