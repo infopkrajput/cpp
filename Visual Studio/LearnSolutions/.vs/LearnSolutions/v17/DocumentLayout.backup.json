@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pkraj\\OneDrive\\PK\\Study\\c\u002B\u002B\\Visual Studio\\LearnSolutions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94463FB9-30FF-43D7-8780-DC82C8DB9915}|Learn\\Learn.vcxproj|C:\\Users\\pkraj\\OneDrive\\PK\\Study\\c\u002B\u002B\\Visual Studio\\LearnSolutions\\Learn\\learnc.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94463FB9-30FF-43D7-8780-DC82C8DB9915}|Learn\\Learn.vcxproj|solutionrelative:Learn\\learnc.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94463FB9-30FF-43D7-8780-DC82C8DB9915}|Learn\\Learn.vcxproj|C:\\Users\\pkraj\\OneDrive\\PK\\Study\\c\u002B\u002B\\Visual Studio\\LearnSolutions\\Learn\\Learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94463FB9-30FF-43D7-8780-DC82C8DB9915}|Learn\\Learn.vcxproj|solutionrelative:Learn\\Learn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "learnc.c",
+              "DocumentMoniker": "C:\\Users\\pkraj\\OneDrive\\PK\\Study\\c\u002B\u002B\\Visual Studio\\LearnSolutions\\Learn\\learnc.c",
+              "RelativeDocumentMoniker": "Learn\\learnc.c",
+              "ToolTip": "C:\\Users\\pkraj\\OneDrive\\PK\\Study\\c\u002B\u002B\\Visual Studio\\LearnSolutions\\Learn\\learnc.c*",
+              "RelativeToolTip": "Learn\\learnc.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-21T01:28:41.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Learn.cpp",
+              "DocumentMoniker": "C:\\Users\\pkraj\\OneDrive\\PK\\Study\\c\u002B\u002B\\Visual Studio\\LearnSolutions\\Learn\\Learn.cpp",
+              "RelativeDocumentMoniker": "Learn\\Learn.cpp",
+              "ToolTip": "C:\\Users\\pkraj\\OneDrive\\PK\\Study\\c\u002B\u002B\\Visual Studio\\LearnSolutions\\Learn\\Learn.cpp",
+              "RelativeToolTip": "Learn\\Learn.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-17T12:08:12.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
