@@ -1,3 +1,0 @@
-﻿  learnc.c
-learnc.obj : error LNK2005: main already defined in Learn.obj
-C:\Users\pkraj\OneDrive\PK\Study\c++\Visual Studio\LearnSolutions\x64\Debug\Learn.exe : fatal error LNK1169: one or more multiply defined symbols found
