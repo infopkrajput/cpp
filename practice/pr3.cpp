@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-int sub(int a = 20, int b=2000)
+int sub(int a = 20, int b = 2000)
 {
-    int result ;
+    int result;
     result = a - b;
     return result;
 }
