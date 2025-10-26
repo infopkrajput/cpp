@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/PC/OneDrive/PK/Study/c++/Practice",
-      "program": "c:/Users/PC/OneDrive/PK/Study/c++/Practice/build/Debug/outDebug",
+      "cwd": "c:/Users/pkraj/OneDrive/Study/cpp/General Billing Software",
+      "program": "c:/Users/pkraj/OneDrive/Study/cpp/General Billing Software/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
